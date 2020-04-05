@@ -131,6 +131,11 @@ h1,h2,h3,h4,h5{
 .py-2{padding: 2rem }
 .py-3{padding: 3rem }
 
+.l-heading
+{
+    font-size: 3rem;
+}
+
 .list li{
     padding: .5rem 0;
     border-bottom: #555 dotted 1px;
@@ -146,7 +151,7 @@ h1,h2,h3,h4,h5{
     display: grid;
     grid-template-columns: 5fr 2fr;
     margin: 2rem 0;
-    grid-gap: 1.5rem;
+    grid-gap: 1.5rem  ;
 }
 .page-container >*:first-child
 {
@@ -255,6 +260,19 @@ h1,h2,h3,h4,h5{
     align-items: center;
     grid-column: 2/span 2;
 }
+
+#article .meta
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 0.5rem;
+}
+#article .meta .category{
+    margin-top: 0.4rem;
+}
+
 
 /*   Footer */
 #main-footer
