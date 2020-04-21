@@ -21,8 +21,8 @@ a
 .text-bg
 {
     padding: 1rem;
-    background: #333;
     display: inline-block;
+    background-color: rgba(0,0,0,0.7);
 }
 
 /* navbar */
@@ -37,9 +37,10 @@ a
     position: sticky;
     top: 0;
     z-index: 1;
-    padding: 2rem;
+    padding: 1.5rem;
     background: #ffff;;
-    color:black;    
+    color:black;  
+    box-shadow: 0 1px 20px rgba(0,0,0,0.7);  
 }
 #navbar ul{
     display: flex;
@@ -50,8 +51,34 @@ a
     padding: 0.75rem;
     margin: 0 0.25rem;
 }
-#showcase h1{
-    color: #ffff;
+#showcase
+{
+    display: flex;
+    flex-direction: column;
+    background:  url(./image/Arch2O-ModernArchitecture-IngallsRink-07.jpg) no-repeat center center/cover;
+    height:100vh;
+    margin-bottom: 2rem;  
 }
+#showcase p
+{
+    font-size: 45px;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%; 
+}
+#projects 
+{
+    padding: 3rem 2rem;
+}
+#projects p{
+    color: black;
+    font-size: 1.7rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #f4f4f4;
+}
+
 
 
