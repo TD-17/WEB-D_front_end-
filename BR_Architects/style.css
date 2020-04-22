@@ -84,7 +84,7 @@ a:hover{
 }
 #showcase p
 {
-    font-size: 45px;
+    font-size: 50px;
     color: #ffffff;
     height: 100%;
     width: 100%;
@@ -197,11 +197,28 @@ a:hover{
     border: 1px solid #ccc;
 }
 button{
-    margin:1rem 2rem;
+    margin:1.5rem 2rem;
     padding: 0.5rem;
     background: black;
     color: #f4f4f4;
     border: none;
+}
+button:hover{
+    background: #333;
+}
+#image
+{
+    padding: 0.5rem 2rem;
+}
+#image img{
+    width: 100%;
+}
+#main-footer
+{
+    text-align: center;
+    padding: 2rem;
+    background: black;
+    color: #f4f4f4;
 }
 
 
