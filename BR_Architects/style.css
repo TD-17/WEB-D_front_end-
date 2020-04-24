@@ -96,12 +96,6 @@ a:hover{
 {
     padding: 3rem 2rem;
 }
-/* #projects p{
-    color: black;
-    font-size: 1.7rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 2px solid #f4f4f4;
-} */
 #images img{
     width: 100%;
     height: 170px;
@@ -221,6 +215,61 @@ button:hover{
     color: #f4f4f4;
 }
 
+@media(max-width:775px)
+{
+    #images .container
+    {
+      width: 48.5%;
+
+    }
+    #images img{
+      width: 100%;
+      height: 220px;
+    }
+    #about .container{
+        width: 48.5%;
+    }
+    #about .container img{
+
+        width: 100%;
+
+    }   
+}
+@media(max-width:585px)
+{
+    #navbar ul a{
+        padding: 0.5rem;
+        margin: 0 0.25rem;
+    }
+    #images .container
+    {
+      width: 98.5%;
+
+    }
+    #images img{
+      width: 100%;
+      height: 350px;
+    }
+    #about .container{
+        width: 98.5%;
+    }
+    #about .container img{
+
+        width: 100%;
+
+    }   
+    #navbar
+    {
+        font-size: 0.75rem;
+        padding: 0.5rem;
+        letter-spacing: 2px;
+    }
+    #showcase p{
+        font-size: 35px;
+    }
+
+
+}
 
 
 
